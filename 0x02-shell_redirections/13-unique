@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $(grep -o -w "$word" <<< "${words[@]}" | wc -l)
