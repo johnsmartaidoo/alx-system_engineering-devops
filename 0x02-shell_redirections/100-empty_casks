@@ -1,2 +1,2 @@
 #!/bin/bash
-find $(pwd) -depth -type f ! -s -printf '%f\n' , -type d -empty -printf '%f\n' ; echo
+echo find $(pwd) -depth -type f ! -s -printf '%f\n' , -type d -empty -printf '%f\n'
