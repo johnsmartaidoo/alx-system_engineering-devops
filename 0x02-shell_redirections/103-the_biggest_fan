@@ -1,0 +1,2 @@
+#!/bin/bash
+echo ./parse_web_logs.sh < input_file.tsv
