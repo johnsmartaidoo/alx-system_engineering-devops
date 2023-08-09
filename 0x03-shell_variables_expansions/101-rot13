@@ -1,5 +1,2 @@
 #!/bin/bash
-encode_rot13() {
-    echo "$1" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
-decode_rot13() {
-    encode_rot13 "$1"
+encode_rot13() | tr decode_rot13 "" \n
