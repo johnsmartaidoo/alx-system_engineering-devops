@@ -1,0 +1,2 @@
+#!/bin/bash
+echo find $(pwd) -type f -iname '*.gif' -printf '%s:%p\n' | sort -t ':' -k 1,1 -f | awk -F '/' '{ gsub(".gif", "", $NF); print $NF }'; echo
